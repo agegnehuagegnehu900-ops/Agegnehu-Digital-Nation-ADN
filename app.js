@@ -45,3 +45,10 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
+// Add blockchain selection logging
+const blockchainSelect = document.getElementById('blockchainChoice');
+if (blockchainSelect) {
+    blockchainSelect.addEventListener('change', function() {
+        console.log("Citizen selected network: " + this.value);
+    });
+}
