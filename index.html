@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agegnehu Digital Nation (ADN)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ADN Cyber Flag Configuration (SVG Architecture) -->
+    <div class="adn-flag-container">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" class="adn-cyber-flag">
+            <!-- Top Band: Electric Aqua-Teal representing Innovation -->
+            <rect width="800" height="166.6" fill="#00F5D4"/>
+            <!-- Middle Band: Deep Cyber Night representing Security & Decentralization -->
+            <rect y="166.6" width="800" height="166.6" fill="#121824"/>
+            <!-- Bottom Band: Royal Purple representing Sovereignty & Community -->
+            <rect y="333.2" width="800" height="166.6" fill="#9B5DE5"/>
+            
+            <!-- Central Cryptographic Node-Star Emblem -->
+            <g transform="translate(400, 250) scale(1.2)">
+                <!-- Symmetric Network Polygon -->
+                <polygon points="0,-45 13,-13 43,-13 18,7 27,38 0,18 -27,38 -18,7 -43,-13 -13,-13" fill="#ffffff" filter="drop-shadow(0px 0px 8px #00F5D4)"/>
+                <!-- Decentralized Network Nodes -->
+                <circle cx="0" cy="-45" r="5" fill="#00F5D4"/>
+                <circle cx="43" cy="-13" r="5" fill="#00F5D4"/>
+                <circle cx="27" cy="38" r="5" fill="#00F5D4"/>
+                <circle cx="-27" cy="38" r="5" fill="#00F5D4"/>
+                <circle cx="-43" cy="-13" r="5" fill="#00F5D4"/>
+                <circle cx="0" cy="0" r="10" fill="#9B5DE5"/>
+            </g>
+        </svg>
+    </div>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Agegnehu Digital Nation</h1>
+            <p class="subtitle">The Borderless Web3 Republic for All Digital Professionals, Creators, and Entrepreneurs.</p>
+            <p class="description">Verify your identity via Blockchain, claim your digital passport, and unlock remote global careers instantly.</p>
+        </div>
+    </header>
+
+    <!-- Passport Generation & Live Preview Section -->
+    <section class="passport-section">
+        <div class="container">
+            <div class="passport-form-box">
+                <h2>Claim Your ADN Digital Passport</h2>
+                <p>Enter your professional details to generate your verified Web3 sovereign identity.</p>
+                
+                <form id="passportForm">
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" id="fullName" placeholder="e.g., Agegnehu Shibiru" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="profilePic">Profile Picture URL</label>
+                        <input type="url" id="profilePic" placeholder="https://example.com/your-photo.jpg" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="techSkill">Your Profession / Field</label>
+                        <select id="techSkill">
+                            <option value="Software & Tech Developer">Software & Tech Developer</option>
+                            <option value="Digital Content Creator">Digital Content Creator / Media</option>
+                            <option value="Online Entrepreneur / Trader">Online Entrepreneur / Trader</option>
+                            <option value="Digital Marketer & Expert">Digital Marketer & Expert</option>
+                            <option value="Remote Virtual Assistant">Remote Virtual Assistant / Admin</option>
+                            <option value="Online Educator & Consultant">Online Educator & Consultant</option>
+                        </select>
+                    </div>
+                    <button type="button" id="generateCardBtn" class="btn-generate">Generate Digital Passport</button>
+                </form>
+            </div>
+
+            <!-- Live Digital Passport Card Preview -->
+            <div class="passport-card-box">
+                <div class="passport-card" id="passportCard">
+                    <div class="card-header">
+                        <span class="card-logo">ADN GLOBAL</span>
+                        <span class="card-title">OFFICIAL PASSPORT</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-photo">
+                            <img id="cardImage" src="https://via.placeholder.com/100" alt="Profile">
+                        </div>
+                        <div class="card-info">
+                            <h3 id="cardName">YOUR NAME HERE</h3>
+                            <p class="card-role" id="cardRole">PROFESSIONAL FIELD</p>
+                            <p class="card-id" id="cardId">ID: ADN-TEMP-0000</p>
+                            <span class="badge-active">ACTIVE CITIZEN</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional & Legal Footer -->
+    <footer>
+        <p>&copy; 2026 <strong>Agegnehu Digital Nation (ADN)</strong>. All Rights Reserved.</p>
+        <p class="footer-legal">The visual identity, cryptographic flag architecture, and node-star configuration are the exclusive intellectual property of the Founder. Protected under decentralized code provenance.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+                           </html>
+
